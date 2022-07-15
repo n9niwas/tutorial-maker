@@ -9,7 +9,7 @@ export function App() {
     setInterval(() => setDate(Date.now()), 1000);
   });
 
-  return <h1>Hello World! ({date && formatDate(date)})</h1>;
+  return <h1>Hello World! {date && <>({formatDate(date)})</>}</h1>;
 }
 
 function formatDate(ms: number): string {
