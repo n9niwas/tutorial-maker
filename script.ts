@@ -1,1 +1,1 @@
-console.log('hello coun');
+console.log('2*5');
