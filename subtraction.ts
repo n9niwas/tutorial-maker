@@ -1,2 +1,2 @@
-console.log(29 - 3);
-console.log(123, 2 + 3);
+console.log(15 - 3);
+console.log(123, 2 + 5);
