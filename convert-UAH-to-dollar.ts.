@@ -1,0 +1,6 @@
+function division(first: number, second: number) {
+  return first / second;
+}
+
+console.log(division(10, 36.97));
+console.log(division(10, 5));
