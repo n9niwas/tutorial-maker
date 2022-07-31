@@ -1,5 +1,5 @@
-function addition(first: number, second: number) {
-  return first * second;
+function convertFromUsdToUah(dollarAmount: number) {
+  return dollarAmount * 36.97;
 }
 
-console.log(addition(15, 36.97));
+console.log(convertFromUsdToUah(15));
