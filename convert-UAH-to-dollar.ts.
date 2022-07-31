@@ -1,6 +1,6 @@
-function division(first: number, second: number) {
-  return first / second;
+function convertFromUahToUsd(uahAmount: number) {
+  return uahAmount / 36.97;
 }
 
-console.log(division(10, 36.97));
-console.log(division(10, 5));
+console.log(convertFromUahToUsd(10));
+console.log(convertFromUahToUsd(10));
